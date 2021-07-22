@@ -42,6 +42,14 @@ public class PasswordControllerTest extends Mockito {
         standaloneSetup(this.passwordController);
     }
 
+
+    @Test
+    public void testConstructor() {
+        PasswordController passwordController = new PasswordController(this.passwordService);
+        assertEquals(passwordController, passwordController);
+    }
+
+
     @Test
     @Description("Testando a funcionalidade de validação")
     public void testValidateWithSuccessStatus() throws Exception {
