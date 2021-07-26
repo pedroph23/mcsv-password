@@ -54,4 +54,4 @@ Siga os passos asseguir para efetuar corretamente que a aplicação rode em seu 
 
 - 3º Acessando as API'S
   
-  Após inicializar vocè deve entrar na URL http://localhost:8081/swagger-ui/ ou http://localhost:8081/swagger-ui/index.html , que redirecionará para o Swagger da aplicação.
+  Após inicializar vocè deve entrar na URL http://localhost:8081/swagger-ui/ ou http://localhost:8081/swagger-ui/index.html , que redirecionará para o Swagger da   aplicação.
