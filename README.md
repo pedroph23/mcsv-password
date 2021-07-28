@@ -16,7 +16,7 @@ Esse serviço propõem em fazer uma análise de senha com o dado passado no serv
 
 A solução que eu tive era de utilizar a ideia de Expressões Regulares (RegEx), que faria uma análise mais fácil e certa tendo como um retorno um código mais límpo e com menos quantidade de linhas para desenvolver.
 
-- Regex utilizado para validar as 4 primeiras regras listado acima.
+- Regex utilizado para validar as 5 primeiras regras listado acima.
 
 ```
 ^(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*()-+])[A-Za-z\d!@#$%^&*()-+]{9,}$
